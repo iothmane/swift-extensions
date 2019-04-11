@@ -98,8 +98,57 @@
 		6D1966C9224C396D00FA79CB /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				6D1966CF224C3D5800FA79CB /* CoreLocation */,
+				6D1966CE224C3D5800FA79CB /* Foundation */,
+				6D1966CD224C3D5700FA79CB /* MapKit */,
+				6D1966D0224C3D5900FA79CB /* Shared */,
+				6D1966D1224C3D5900FA79CB /* Stdlib */,
+				6D1966CC224C3D4800FA79CB /* UIKit */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6D1966CC224C3D4800FA79CB /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				6D1966D2224C3E9D00FA79CB /* UIColorExtensions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		6D1966CD224C3D5700FA79CB /* MapKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MapKit;
+			sourceTree = "<group>";
+		};
+		6D1966CE224C3D5800FA79CB /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		6D1966CF224C3D5800FA79CB /* CoreLocation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreLocation;
+			sourceTree = "<group>";
+		};
+		6D1966D0224C3D5900FA79CB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6D1966D1224C3D5900FA79CB /* Stdlib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stdlib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +215,7 @@
 				TargetAttributes = {
 					6D1966AD224C38B500FA79CB = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
 					};
 					6D1966B6224C38B500FA79CB = {
 						CreatedOnToolsVersion = 10.2;
@@ -396,6 +446,7 @@
 		6D1966C3224C38B600FA79CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -414,6 +465,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.itseasy.SwiftExtensions;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -422,6 +474,7 @@
 		6D1966C4224C38B600FA79CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -448,6 +501,7 @@
 		6D1966C6224C38B600FA79CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -466,6 +520,7 @@
 		6D1966C7224C38B600FA79CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Tests/Info.plist;
