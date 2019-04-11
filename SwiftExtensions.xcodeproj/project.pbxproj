@@ -10,6 +10,7 @@
 		6D1966B8224C38B500FA79CB /* SwiftExtensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1966AE224C38B500FA79CB /* SwiftExtensions.framework */; };
 		6D1966BD224C38B500FA79CB /* SwiftExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1966BC224C38B500FA79CB /* SwiftExtensionsTests.swift */; };
 		6D1966BF224C38B600FA79CB /* SwiftExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D1966B1224C38B500FA79CB /* SwiftExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D1966D3224C3E9D00FA79CB /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1966D2224C3E9D00FA79CB /* UIColorExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		6D1966B7224C38B500FA79CB /* SwiftExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftExtensionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D1966BC224C38B500FA79CB /* SwiftExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExtensionsTests.swift; sourceTree = "<group>"; };
 		6D1966BE224C38B600FA79CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D1966D2224C3E9D00FA79CB /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -299,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D1966D3224C3E9D00FA79CB /* UIColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
