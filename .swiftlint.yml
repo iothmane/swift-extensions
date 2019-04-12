@@ -1,0 +1,39 @@
+# To Find all the available rules run: swiftlint rules
+# More info can be found here: https://github.com/realm/SwiftLint/blob/master/Rules.md
+
+disabled_rules:
+  - line_length
+  - todo
+
+excluded:
+  - Pods
+
+opt_in_rules:
+  - closure_end_indentation
+  - force_unwrapping
+  - object_literal
+  - sorted_imports
+  - private_outlet
+  - closure_spacing
+  - empty_count
+  - explicit_init
+  - overridden_super_call
+  - redundant_nil_coalescing
+  - attributes
+  - operator_usage_whitespace
+  - first_where
+  - prohibited_super_call
+  - nimble_operator
+  - switch_case_on_newline
+
+identifier_name:
+  excluded:
+    - id
+
+function_body_length:
+  warning: 100
+  error: 200
+
+file_length:
+  warning: 500
+  error: 800
